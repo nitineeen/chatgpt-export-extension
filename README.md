@@ -1,4 +1,4 @@
-<h2> Expot your ChatGPT converstions to PDF/Docs using this simple extension. (VIBE CODED)</h2>
+<h2> Export your ChatGPT converstions to PDF/Docs using this simple extension. (VIBE CODED)</h2>
 
 What it can do!
 - Editable in the browser itself!
