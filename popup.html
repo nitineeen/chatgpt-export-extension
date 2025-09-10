@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Save Your Conversations</title>
+  
+  <!-- Inter font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --black: #111827;
+      --gray-light: #f9fafb;
+      --gray-medium: #6b7280;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--gray-light);
+      margin: 0;
+      padding: 20px;
+      width: 320px;
+      color: var(--black);
+    }
+
+    h1 {
+ font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    p {
+ font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      color: var(--gray-medium);
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    .button {
+ font-family: 'Inter', sans-serif;
+      background-color: var(--black);
+      color: white;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      width: 100%;
+      transition: background 0.2s ease;
+    }
+
+    .button:hover {
+ font-family: 'Inter', sans-serif;
+      background-color: #1f2937;
+    }
+
+    .footer {
+ font-family: 'Inter', sans-serif;
+      margin-top: 20px;
+      font-size: 12px;
+      color: var(--gray-medium);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Save Your Chat</h1>
+  <p>Keep your ideas, answers, and notes organized for later.</p>
+  
+  <button class="button" id="export">Open in new window</button>
+
+  <div class="footer">
+    Tip: Export your ChatGPT conversations as beautifully <strong>editable</strong> formatted PDFs
+  <br><br><hr>Made with ❤️ by <a href="https://github.com/nitineeen">Nitin</a></div>
+
+  <script src="html2pdf.bundle.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
